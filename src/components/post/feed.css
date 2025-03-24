@@ -1,0 +1,23 @@
+.check {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  /* position: fixed; */
+}
+
+.button {
+    width: 5rem;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /* top: 12rem; */
+    height: 5rem;
+    border: 0px;
+}
+
+.like {
+  margin: 5px;
+}
