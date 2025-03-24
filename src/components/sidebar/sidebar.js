@@ -190,7 +190,7 @@ const Sidebar = (props) => {
               className="d-flex align-items-start pt-1 pb-1 d-flex align-items-center"
             >
               <img
-                src={`http://127.0.0.1:7890${user.image}`}
+                src={`https://atlshopuk.pythonanywhere.com${user.image}`}
                 className="rounded-circle mr-1"
                 alt={user.first_name + " " + user.last_name}
                 width="40"
