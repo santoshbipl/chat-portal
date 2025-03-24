@@ -80,7 +80,7 @@ const Navbar = () => {
 						<div>
 							<div className="d-flex flex-row align-items-center">
 								<img
-									src={`http://127.0.0.1:7890${details.image}`}
+									src={`https://atlshopuk.pythonanywhere.com${details.image}`}
 									alt={details.first_name}
 									style={{
 										width: "7rem",
