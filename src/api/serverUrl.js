@@ -1,5 +1,5 @@
 const ServerUrl = {
-  BASE_URL: "https://atlshopuk.pythonanywhere.com",
+  BASE_URL: "http://atlshopuk.pythonanywhere.com",
   WS_BASE_URL: "ws://atlshopuk.pythonanywhere.com/"
 };
 
