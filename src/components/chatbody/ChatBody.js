@@ -11,7 +11,7 @@ import CryptoJS from "crypto-js";
 import "./chatBodyStyle.css";
 
 let socket = new WebSocket(
-	ServerUrl.WS_BASE_URL + `ws/users/${CommonUtil.getUserId()}/chat/`
+	ServerUrl.WS_BASE_URL + `wss/users/${CommonUtil.getUserId()}/chat/`
 );
 let typingTimer = 0;
 let isTypingSignalSent = false;
